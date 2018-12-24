@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ec14ab8-061c-4ffc-8682-a549e8fabfbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scrapy/Tenc/Tenc/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrapy/Tenc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrapy/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/ChangeLog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/LICENSE.BSD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/bin/phantomjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/arguments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/child_process-examples.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/colorwheel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/detectsniff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/echoToFile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/features.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/fibo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/injectme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/loadspeed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/loadurlwithoutcss.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/modernizr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/netlog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/netsniff.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/openurlwithproxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/outputEncoding.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/page_events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/pagecallback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/phantomwebintro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/postjson.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/postserver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/printenv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/printheaderfooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/printmargins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/rasterize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/render_multi_url.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/responsive-screenshot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/run-jasmine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/run-jasmine2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/run-qunit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/scandir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/serverkeepalive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/simpleserver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/sleepsort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/stdin-stdout-stderr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/universe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/unrandomize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/useragent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/version.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/waitfor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/examples/walk_through_frames.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phantomjs-2.1.1-linux-x86_64/third-party.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,30 +30,7 @@
     <SUITE FILE_PATH="coverage/test$hupu_spider.coverage" NAME="hupu_spider Coverage Results" MODIFIED="1544885698409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Requests" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_self_add.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_last_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-              <folding>
-                <element signature="e#24#53#0" expanded="true" />
-                <element signature="e#420#1203#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,10 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ttt.py" />
-        <option value="$PROJECT_DIR$/urllib_Request_py3.py" />
-        <option value="$PROJECT_DIR$/urllib_random_useragent.py" />
-        <option value="$PROJECT_DIR$/urllib_urlencode.py" />
         <option value="$PROJECT_DIR$/urllib_urlencode_py2.py" />
         <option value="$PROJECT_DIR$/baidu_spider.py" />
         <option value="$PROJECT_DIR$/Urllib/urllib_douban_movie.py" />
@@ -175,6 +95,12 @@
         <option value="$PROJECT_DIR$/Scrapy/Tenc/Tenc/data/main.py" />
         <option value="$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_self_add.py" />
         <option value="$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_last_page.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_start_urls.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/spiders/tenc_multi_grade.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/spiders/tenc_multi_grade_meth2.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/settings.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/items.py" />
+        <option value="$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/pipelines.py" />
       </list>
     </option>
   </component>
@@ -190,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,7 +147,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="Tenc" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="Tenc" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,14 +162,22 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="Tenc" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
               <item name="Tenc" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
+              <item name="TenMulti" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,7 +330,8 @@
       <workItem from="1544947458559" duration="2133000" />
       <workItem from="1545208795498" duration="11558000" />
       <workItem from="1545232995747" duration="1027000" />
-      <workItem from="1545291397995" duration="34390000" />
+      <workItem from="1545291397995" duration="35733000" />
+      <workItem from="1545641479150" duration="8476000" />
     </task>
     <servers />
   </component>
@@ -407,12 +350,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110063000" />
+    <option name="totallyTimeSpent" value="119882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="988" height="881" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20851064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2287234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,53 +402,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Urllib/urllib_urlencode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#9#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Urllib/urllib_renren_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="e#15#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Requests/zuoAI.py" />
-    <entry file="file://$PROJECT_DIR$/Requests/tieba_spider.py" />
-    <entry file="file://$PROJECT_DIR$/Requests/1da80cb3e8b.jpg" />
-    <entry file="file://$PROJECT_DIR$/Requests/tencent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret column="2903" lean-forward="true" selection-start-column="2903" selection-end-column="2903" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Requests/requests_neihandz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Requests/neihanduanzi.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3/dist-packages/requests/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17160">
@@ -628,9 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy.py" />
     <entry file="file://$PROJECT_DIR$/Requests/hupu_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -714,44 +608,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/data/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/spiders/tenc_spd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="84" column="25" lean-forward="true" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/items.py" />
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/data/main.py" />
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/spiders/tenc_spd.py" />
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/Tenc/Tenc/settings.py" />
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tencent/scrapy.cfg" />
     <entry file="file://$PROJECT_DIR$/Scrapy/ITCast/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -766,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -794,31 +648,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_spd.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_spd_base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="36" lean-forward="true" selection-end-line="36" />
+        <state relative-caret-position="232">
+          <caret line="24" column="9" lean-forward="true" selection-end-line="36" />
           <folding>
             <element signature="e#24#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_self_add.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/data/tenc_start_urls.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
+        <state relative-caret-position="-362" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_last_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="40" column="71" lean-forward="true" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_self_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/spiders/tenc_start_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/data/tenc_multi_grade.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/spiders/tenc_multi_grade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="2" column="40" selection-end-line="54" />
           <folding>
-            <element signature="e#24#53#0" expanded="true" />
-            <element signature="e#420#1203#0" />
+            <element signature="e#24#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/spiders/tenc_multi_grade_meth2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#67#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/Tenc/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="82" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/TenMulti/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="e#194#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/Tenc/TenMulti/data/tencent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret column="560" lean-forward="true" selection-end-column="1154676" />
         </state>
       </provider>
     </entry>
