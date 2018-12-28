@@ -69,6 +69,38 @@ DOWNLOADER_MIDDLEWARES = {
 #    'AQI.pipelines.AqiPipeline': 300,
 #}
 
+
+# 将scrapy改成scrapy-redis分布式:
+# 1(必须). 使用了scrapy_redis的去重组件，在redis数据库里做去重
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+
+# 2(必须). 使用了scrapy_redis的调度器，在redis里分配请求
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+
+# 3(必须). 在redis中保持scrapy-redis用到的各个队列，从而允许暂停和暂停后恢复，也就是不清理redis queues
+SCHEDULER_PERSIST = True
+
+# 4(必须). 通过配置RedisPipeline将item写入key为 spider.name : items 的redis的list中，供后面的分布式处理item
+# 这个已经由 scrapy-redis 实现，不需要我们写代码，直接使用即可
+ITEM_PIPELINES = {
+
+    'scrapy_redis.pipelines.RedisPipeline': 100
+}
+
+# 5(必须). 指定redis数据库的连接参数
+REDIS_HOST = '127.0.0.1'
+REDIS_PORT = 6379
+
+# 6.如果不启用则按scrapy默认的策略
+#  -1. 默认的 按优先级排序(Scrapy默认)，由sorted set实现的一种非FIFO、LIFO方式。
+# SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderPriorityQueue'
+#  -2. 可选的 按先进先出排序（FIFO）
+SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderQueue'
+#  -3. 可选的 按后进先出排序（LIFO）
+# SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.SpiderStack'
+
+
+
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
