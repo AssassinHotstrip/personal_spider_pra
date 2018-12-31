@@ -46,4 +46,4 @@ class Engine(object):
             self.pipeline.process_item(result)
         ## 若都不是,则抛异常
         else:
-            raise TypeError("Not support data type : [{}]".format(result))gi
+            raise TypeError("Not support data type : [{}]".format(result))
