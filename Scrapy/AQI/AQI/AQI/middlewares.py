@@ -44,7 +44,6 @@ class AqiSpiderMiddleware(object):
         # 判断当前请求是否是动态页面，
         # 如果if成立表示是动态页面，则自定义构建响应；如果if不成立则表示是静态页面，则让下载器处理请求返回响应(scrapy会自动将请求发给下载器,不需要做手动处理)
         if "monthdata" in request.url or "daydata" in request.url:
-            url = request.url
 
             # 通过chrome发送请求
             self.driver.get(request.url)
