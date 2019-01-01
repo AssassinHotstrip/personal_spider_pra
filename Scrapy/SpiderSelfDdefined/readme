@@ -1,0 +1,9 @@
+Spider Lightweight Framework
+
+install : python2/python3 setup.py install
+uninstall : pip/pip3 uninstall SpiderAssassin
+
+create a new spider:
+  code/  newname_spider.py
+  --->  class NewnameSpider(Spider):
+  --->      pass

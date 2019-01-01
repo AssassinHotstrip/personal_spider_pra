@@ -22,6 +22,7 @@ class Scheduler(object):
         """过滤重复请求"""
         # 判断请求指纹是否已存在于指纹集合中,若在,返回False,进一步让请求不能加入队列
         if request.url in self.fingerprint_set:
+            print("[INFO] : Filter Request [{}] <{}>".format(request.method, request.url))
             return False
         # 若不在,返回True,允许请求加入队列
         else:
@@ -31,4 +32,7 @@ class Scheduler(object):
     def get_request(self):
         """获取过滤后的请求"""
         # 返回一个不重复的请求给引擎,引擎交给下载器处理
-        return self.request_queue.get()
+        try:
+            return self.request_queue.get(False)
+        except:
+            return None
